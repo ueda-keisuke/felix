@@ -25,7 +25,7 @@ Key design patterns ported from Dexter:
 - `tools/finance.py` — Yahoo Finance via `yfinance` (10 tools: prices, financials, metrics, earnings, news, etc.)
 - `tools/search.py` — DuckDuckGo web search (free, no API key)
 
-**LLM** (`llm.py`): Thin wrapper around `litellm.completion()`. Set `FELIX_MODEL` env var to change model (default: `gpt-4o`). Any litellm-supported model string works.
+**LLM** (`llm.py`): Thin wrapper around `litellm.completion()`. Set `FELIX_MODEL` env var to change model (default: `gpt-5.4-2026-03-05`). Any litellm-supported model string works.
 
 ## Coding Conventions
 

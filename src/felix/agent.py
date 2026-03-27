@@ -136,7 +136,7 @@ def _trim_context(messages: list[dict]) -> list[dict]:
     list valid for the API.
     """
     total_chars = sum(len(str(m.get("content", ""))) for m in messages)
-    if estimate_tokens(total_chars) <= CONTEXT_THRESHOLD:
+    if total_chars // 4 <= CONTEXT_THRESHOLD:
         return messages
 
     # Identify groups: (start_index, end_index_exclusive)

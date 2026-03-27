@@ -37,7 +37,7 @@ $ felix
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ Felix — Financial Research Agent       ┃
-┃ Model: gpt-4o                          ┃
+┃ Model: gpt-5.4-2026-03-05              ┃
 ┃ Type /quit to exit, /model to switch   ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
@@ -52,7 +52,7 @@ $ felix
 
 | Env Variable | Default | Description |
 |---|---|---|
-| `FELIX_MODEL` | `gpt-4o` | LLM model (any litellm-supported string) |
+| `FELIX_MODEL` | `gpt-5.4-2026-03-05` | LLM model (any litellm-supported string) |
 | `OPENAI_API_KEY` | — | OpenAI API key |
 | `ANTHROPIC_API_KEY` | — | Anthropic API key |
 | `GEMINI_API_KEY` | — | Google Gemini API key |

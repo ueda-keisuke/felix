@@ -52,8 +52,12 @@ def main() -> None:
             console.print(f"Switched to [bold]{model}[/bold]")
             continue
 
-        for event in agent.run(query):
-            _render_event(console, event)
+        try:
+            for event in agent.run(query):
+                _render_event(console, event)
+        except KeyboardInterrupt:
+            console.print("\n[dim](interrupted)[/dim]")
+            continue
 
     console.print("\n[dim]Bye![/dim]")
 

@@ -7,7 +7,7 @@ import litellm
 # Suppress litellm's verbose startup logging
 litellm.suppress_debug_info = True
 
-DEFAULT_MODEL = "gpt-4o"
+DEFAULT_MODEL = "gpt-5.4-2026-03-05"
 
 
 def call_llm(
